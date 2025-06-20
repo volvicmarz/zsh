@@ -6,3 +6,5 @@ alias    yayfind='yay -Slq | fzf --multi --preview "$aurhelper -Si {1}" | xargs 
 alias update='yay -Syu'
 alias now='shutdown now'
 alias matrix='neo'
+alias  push='git add --all && git commit --allow-empty-message -m "" && git push'
+alias bird='nvim ~/games/flappy_bird/main.lua'
